@@ -111,9 +111,7 @@ input, textarea {
     transition: 0.2s;
 }
 
-/* ================================
-   PROJECT CARDS
-================================= */
+/*   PROJECT CARDS*/
 .grid {
     width: 90%;
     margin: auto;
@@ -153,9 +151,7 @@ input, textarea {
     width: 100%;
 }
 
-/* ================================
-   PROJECT DETAILS PAGE
-================================= */
+/*    PROJECT DETAILS PAGE */
 .details-container {
     width: 60%;
     margin: 35px auto;
@@ -170,4 +166,5 @@ input, textarea {
     border-radius: 14px;
     margin-bottom: 20px;
 }
+
 
