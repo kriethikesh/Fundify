@@ -1,6 +1,4 @@
-/* ================================
-   FUNDIFY GLOBAL STYLES
-================================= */
+/*GLOBAL STYLES */
 
 body {
     font-family: "Poppins", sans-serif;
@@ -10,9 +8,7 @@ body {
     color: #333;
 }
 
-/* ================================
-   NAVIGATION BAR (Upgraded)
-================================= */
+/* NAVIGATION BAR*/
 nav {
     display: flex;
     justify-content: space-between;
@@ -54,9 +50,7 @@ nav .links a:hover {
     color: #ff6a00 !important;
 }
 
-/* ================================
-   HERO SECTION
-================================= */
+/*HERO SECTION*/
 .hero {
     padding: 110px 40px;
     text-align: center;
@@ -94,9 +88,7 @@ nav .links a:hover {
     cursor: pointer;
 }
 
-/* ================================
-   FORMS (Login + Submit)
-================================= */
+/* FORMS (Login + Submit)*/
 .form-container {
     width: 55%;
     margin: 50px auto;
@@ -178,3 +170,4 @@ input, textarea {
     border-radius: 14px;
     margin-bottom: 20px;
 }
+
