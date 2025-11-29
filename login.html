@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Fundify - Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <h2>Fundify</h2>
+    <div class="links">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="submit.html">Submit Project</a>
+        <a href="login.html" class="active" id="loginStatus">Login</a>
+    </div>
+</nav>
+
+<div class="form-container">
+    <h2>Login to Fundify</h2>
+    <p>Access your account to submit and manage your projects.</p>
+
+    <input type="text" id="username" placeholder="Enter Username">
+    <input type="password" id="password" placeholder="Enter Password">
+
+    <label><input type="checkbox"> Remember Me</label>
+
+    <button class="button-primary" onclick="login()">Login</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

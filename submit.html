@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Fundify - Submit Project</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <h2>Fundify</h2>
+    <div class="links">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="submit.html" class="active">Submit Project</a>
+        <a href="login.html" id="loginStatus">Login</a>
+    </div>
+</nav>
+
+<div class="form-container">
+    <h2>Upload Student Project</h2>
+    
+    <p id="loginMessage" style="display:none; color:red;">You must log in to submit.</p>
+
+    <input id="title" placeholder="Project Title">
+    <textarea id="description" placeholder="Project Description"></textarea>
+    <input id="amount" placeholder="Funding Needed (₹)">
+    <input type="file" id="imageUpload">
+
+    <button class="button-primary" onclick="addProject()">Submit Project</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
